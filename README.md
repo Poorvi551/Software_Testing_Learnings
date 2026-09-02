@@ -17,4 +17,11 @@ Software Testing Learnings - code factory
     - S --> Schedule -> Time (Facebook) 1 month
 
   3. Analysis (SRS -> Software requirement specification document)
+
   4. Design (High level Design or Low level Design)
+     
+  5. Coding (Developers (SDE))
+     
+  6. Testing (Tester or QA STE)
+      
+  7. Deployment & Maintainance
