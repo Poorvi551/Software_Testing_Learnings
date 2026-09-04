@@ -113,6 +113,27 @@ Software Testing Learnings - code factory
 
 ### Test cases on Login Page of FACEBOOK
 
+1. Verify that login page should get open when we hit the URL of the login page./Verify that the login screen should get open when we launch the app.
+2. Verify that logo of the facebook should be present.
+3. Verify the color, shape, size, font and position of the logo.
+4. Verify that tagline is present or not.
+5. Verify the font color, position of the tagline.
+6. Verify there should be no spelling, Grammar and punctuation error in Tagline.
+7. Verify that all required labels, input fields, buttons, links and text should be present.
+8. Verify that all required labels, input fields, buttons, links and text should be clearly visible.
+9. Verify that all buttons, text, input field and links should be properly aligned (There should be no overlapping).
+10. Verify the size of all buttons ,links, text and input fields.
+11. Verify that the functionality should work in different Browser (Cross Browser testing).
+12. Verify that tooltip is present or not.
+13. Verify that placeholder is present or not.
+14. Verify that that the login is responsive according to different screen size.(Responsive testing).
+
+### Developers tools
+
+1. ctrl + shift + i
+2. Right click -> click inspect
+3. three dots -> more tools -> Dev Tools (When there is a  disability of above two options)
+4. Toggle device when inspected beside element
 
 
 
