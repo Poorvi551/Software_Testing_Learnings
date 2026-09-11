@@ -135,8 +135,40 @@ Software Testing Learnings - code factory
 3. three dots -> more tools -> Dev Tools (When there is a  disability of above two options)
 4. Toggle device when inspected beside element
 
+## Defect/Bug Life Cycle 
 
+1. Defected -> Deviation from an expected functionality
 
+* New -> Whenever any defect is encountered by QA for the very first time then QA log that defect and mark the status as NEW
+ (Log -> can be done on any either excel or Jira or testlink or any other tools based on the organisation)
+
+2. Assigned -> QA manager will approve the defect and assign it to developer team for fixing.
+
+3. InProgress/Open -> Developer will analyze the defect and works on its fix.
+
+   * Rejected(Not a Bug):
+
+Example : Shaadi.com
+
+   Age(18 yrs -- 80 yrs)
+   Prakhar --> 20 -> Error -> Your age is not valid
+
+DEFECT #1 - User is not able to register when age is 20.
+Age -> 18 Gender male --> 20 (for males 21 is the marriage age so developer will reject the defect)
+
+Those defects which are invalid one such type of defects are marked as rejected.
+ 
+   * Duplicate : When the defect is raised twice or more the developer marks it as Duplicate and start working on original one.
+
+   * Deferred : When the raised issue is of low importance and low priority such types of issues are marked as deferred and these issues are fixed in upcoming version or release.
+
+4.  Fixed -> When developer makes necessary changes in code then he marks the status as fixed.
+
+5. Retest -> QA will retest the defect whether it got fixed or not.
+
+6. Closed -> If the issue no longer exists the QA marks the status as closed.
+
+7. Reopen -> If the raised issue still exists the QA marks it Reopen and assign back to developer.
 
 
 
