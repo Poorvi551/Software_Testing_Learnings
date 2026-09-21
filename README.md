@@ -156,21 +156,76 @@ Responsiveness check
 
 28. Verify the error message when user enter blank email and valid password
 
-Test case	| 25 | 27 |	29 | 31 | 33
-Email	      |Blank 	Blank	Blank	Valid	Invalid
-Password	Blank	Valid	Invalid	Blank	Blank
-Error TC	26	28	30	32	34
+<table>
+   <tr>
+      <td>Test case</td>
+      <td>25</td>
+      <td>27</td>
+      <td>29</td>
+      <td>31</td>
+      <td>33</td>
+   </tr>
+   <tr>
+      <td>Email</td>
+      <td>Blank</td>
+      <td>Blank</td>
+      <td>Blank</td>
+      <td>Valid</td>
+      <td>Invalid</td>
+   </tr>
+   <tr>
+      <td>Password</td>
+      <td>Blank</td>
+      <td>Valid</td>
+      <td>Invalid</td>
+      <td>Blank</td>
+      <td>Blank</td>
+   </tr>
+   <tr>
+      <td>Error</td>
+      <td>26</td>
+      <td>28</td>
+      <td>30</td>
+      <td>32</td>
+      <td>34</td>
+   </tr>
+</table>
 
 
-
-
-
-Test case	35	37	39	41	Homepage
-Email	False	False	True	True	
-Password	False	True	False	True	
-Error TC	36	38	40	42	Login Successful
-
-
+<table>
+   <tr>
+      <td>Test case</td>
+      <td>35</td>
+      <td>37</td>
+      <td>39</td>
+      <td>41</td>
+      <td>Homepage</td>
+   </tr>
+   <tr>
+      <td>Email</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>True</td>
+      <td>-</td>
+   </tr>
+   <tr>
+      <td>Password</td>
+      <td>false</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>-</td>
+   </tr>
+   <tr>
+      <td>Error TC</td>
+      <td>36</td>
+      <td>38</td>
+      <td>40</td>
+      <td>42</td>
+      <td>Login Successful</td>
+   </tr>
+</table>
 
 43. Verify that user should not be able to login with old password once it is changed.
 44. Verify that user should be able to login with new password.
