@@ -127,7 +127,8 @@ Software Testing Learnings - code factory
 12. Verify that tooltip is present or not.
 13. Verify that placeholder is present or not.
 14. Verify that that the login is responsive according to different screen size.(Responsive testing).
-Responsiveness check
+
+*Responsiveness check*
 
 15. Verify the redirection on "create a page" Link.
 16. verify that user should be able to login with "Enter" button.
@@ -142,7 +143,7 @@ Responsiveness check
 25. verify that user should not be able to login with blank username and blank password.
 26. Verify that correct error message should be displayed when user enter blank email and password.
 
-     * username and password cannot be blank.
+     * Username and password cannot be blank.
      * Invalid email and password
      * Email you entered is not connected to any account
 
@@ -280,9 +281,9 @@ Those defects which are invalid one such type of defects are marked as rejected.
 
 ### Testing Methodologies/Testing Techniques
 
-Boundary Value Analysis :
+### Boundary Value Analysis :
 
-In this type of testing technique we test the functionality at boundary values, We test at min, max, Inside and outside boundary values.
+* In this type of testing technique we test the functionality at boundary values, We test at min, max, Inside and outside boundary values.
 
     AGE :[  ] 18--19---20--55
          18 - Min boundary
@@ -309,8 +310,43 @@ TC 13: female 18 Y
 TC 14: Thirty N
 TC 15 60/2 N
 
+Boundary Value Analysis
 
-                               Boundary Value Analysis
+<table>
+   <tr>
+      <td>Invalid</td>
+      <td>min</td>
+      <td>valid</td>
+      <td>Invalid</td>
+      <td>max</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>min-1 min</td>
+      <td>min-1</td>
+      <td>max+1</td>
+      <td>max+1 max</td>
+      <td>-</td>
+      <td>-</td>
+   </tr>
+   <tr>
+      <td>Password</td>
+      <td>false</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+      <td>-</td>
+   </tr>
+   <tr>
+      <td>TC1 TC2</td>
+      <td>TC3</td>
+      <td>TC4</td>
+      <td>TC5 TC6</td>
+      <td>-</td>
+      <td>-</td>
+   </tr>
+</table>
+
 Invalid min	valid	Invalid max
 min-1	min,min+1,max-1,max	max+1
 17	18,19,54,55	56
