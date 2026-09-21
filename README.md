@@ -113,7 +113,7 @@ Software Testing Learnings - code factory
 
 ### Test cases on Login Page of FACEBOOK
 
-1. Verify that login page should get open when we hit the URL of the login page./Verify that the login screen should get open when we launch the app.
+1. Verify that login page should get open when we hit the URL of the login page. / Verify that the login screen should get open when we launch the app.
 2. Verify that logo of the facebook should be present.
 3. Verify the color, shape, size, font and position of the logo.
 4. Verify that tagline is present or not.
@@ -553,7 +553,7 @@ Example :
   
 Attach a screenshot of that issue
 
-then assign that to the developer -> on your right hand side -> there is option called assignments -> click on that and select the user -> then apply labels select bug if it is a bug or many more depending on the issue 
+Then assign that to the developer -> on your right hand side -> there is option called assignments -> click on that and select the user -> then apply labels select bug if it is a bug or many more depending on the issue 
  
 when clicked on labels -> give label name as iOS or depending on the issue faced on the device/operating systems -> create label
 
@@ -584,11 +584,11 @@ description :
   - iOS version : 15
   - Device used: I pad pro
 
- #### description
+ #### Description
 
   - frontend error messages are not visible below name, mobile and password when user tries to register by only entering email.
 
-#### test steps
+#### Test steps
 
   1. Navigate to registration page
   2. Enter valid email keep other fields as blank
