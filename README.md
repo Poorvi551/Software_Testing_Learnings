@@ -330,11 +330,11 @@ Boundary Value Analysis
       <td>-</td>
    </tr>
    <tr>
-      <td>Password</td>
-      <td>false</td>
-      <td>True</td>
-      <td>False</td>
-      <td>True</td>
+      <td>17 18</td>
+      <td>19</td>
+      <td>54</td>
+      <td>55 56</td>
+      <td>-</td>
       <td>-</td>
    </tr>
    <tr>
