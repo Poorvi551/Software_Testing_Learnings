@@ -507,7 +507,7 @@ Gift card(homework)
 ### Bug Reporting in GIT/ Jira/Trello
 
 
-* GIT :
+###  GIT 
 
 open repo -> click on issues -> add title in precise way such that developer should understand easily -> add description.
 
@@ -519,7 +519,7 @@ Example :
 
  Description :
 
-  # Environment
+  #### Environment
  
   - Build : -> in the repo click on 1 commit then copy the id and paste it here
   - Php version : 7.1.14
@@ -531,23 +531,23 @@ Example :
   - iOS version : 15
   - Device used: I pad pro
 
- # description
+ #### Description
 
   - All required fields should be marked with asterisk (*)
   - if Asterisk is not marked then we can also mention that **All fields are mandatory**
 
-  # Steps to Reproduce
+  #### Steps to Reproduce
 
   1. navigate to url https://www.drishtilearningapp.com/
   2. Tap to login button in header.
   3. Click on 'Register now'
   4. Analyze the sign -up form
 
-  # Test data
+  #### Test data
 
   - URL : https://www.drishtilearningapp.com/
   
-  # Actual
+  #### Actual
    
    - All required fields are not marked with asterisk (*)
   
@@ -572,7 +572,7 @@ title :
 
 description : 
  
-  # Environment
+  #### Environment
  
   - Build : -> in the repo click on 1 commit then copy the id and paste it here
   - Php version : 7.1.14
@@ -584,21 +584,21 @@ description :
   - iOS version : 15
   - Device used: I pad pro
 
- # description
+ #### description
 
   - frontend error messages are not visible below name, mobile and password when user tries to register by only entering email.
 
-# test steps
+#### test steps
 
   1. Navigate to registration page
   2. Enter valid email keep other fields as blank
   3. Click on submit button 
 
-# Expected
+#### Expected
 
  - Frontend validation message that name, mobile and password are required fields below respective fields.
 
-# Actual 
+#### Actual 
 
  - Validation message for mobile is coming below email field
 
