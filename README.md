@@ -127,6 +127,59 @@ Software Testing Learnings - code factory
 12. Verify that tooltip is present or not.
 13. Verify that placeholder is present or not.
 14. Verify that that the login is responsive according to different screen size.(Responsive testing).
+Responsiveness check
+
+15. Verify the redirection on "create a page" Link.
+16. verify that user should be able to login with "Enter" button.
+17. Verify that user is able to navigate correctly backward with "shift + Tab" button.
+18. Verify that user is able to input username.
+19. Verify that user is able to enter password.
+20. Verify that password should be masked/encrypted.
+21. Verify that the password should be visible on tap of eye button and again become encrypted on double tap.
+22. Verify the Min and max allowed character limit of username/email.
+23. verify the min and max allowed character limit for password field.
+24. Verify the redirection of the page links present in footer section.
+25. verify that user should not be able to login with blank username and blank password.
+26. Verify that correct error message should be displayed when user enter blank email and password.
+
+     * username and password cannot be blank.
+     * Invalid email and password
+     * Email you entered is not connected to any account
+
+27. Verify that user should not be able to login with blank email and valid password.
+
+     * Invalid credentials
+     * Email and password combination is not correct
+     * Email is  a mandatory field
+     * Email id cannot be blank.
+     * Authentication Error
+
+28. Verify the error message when user enter blank email and valid password
+
+Test case	| 25 | 27 |	29 | 31 | 33
+Email	      |Blank 	Blank	Blank	Valid	Invalid
+Password	Blank	Valid	Invalid	Blank	Blank
+Error TC	26	28	30	32	34
+
+
+
+
+
+Test case	35	37	39	41	Homepage
+Email	False	False	True	True	
+Password	False	True	False	True	
+Error TC	36	38	40	42	Login Successful
+
+
+
+43. Verify that user should not be able to login with old password once it is changed.
+44. Verify that user should be able to login with new password.
+45. verify that user cannot set already used passwords as new password.
+46. user should not be able to set username , email, phone number as password.
+47. Verify that password should match the expected criteria(one lowercase one uppercase 1 special character 8 digit long)
+48. Verify the max no. of unsuccessful login attempt allowed (based on the requirements).
+49. verify that captcha, OTP, 2FA or MFA(Multi factor authentication) is enabled or not.
+50. verify that multiple sessions are allowed or not
 
 ### Developers tools
 
@@ -170,7 +223,295 @@ Those defects which are invalid one such type of defects are marked as rejected.
 
 7. Reopen -> If the raised issue still exists the QA marks it Reopen and assign back to developer.
 
+### Testing Methodologies/Testing Techniques
 
+Boundary Value Analysis :
+
+In this type of testing technique we test the functionality at boundary values, We test at min, max, Inside and outside boundary values.
+
+    AGE :[  ] 18--19---20--55
+         18 - Min boundary
+         55 - Max boundary
+         19 - Inside boundary
+         54 - Inside boundary
+         17 - Outside boundary
+         56 - Outside boundary
+
+
+TC 1: 18 yes
+TC 2: 100 N
+TC 3: 55 Y
+TC 4: 12 N
+TC 5: -10N
+TC 6: Male/Female
+TC 7: -40 N
+TC 8: -53 N
+TC 9: Blank N
+TC 10: male 19 N
+TC 11: female 16 N
+TC 12: Male 21 Y
+TC 13: female 18 Y
+TC 14: Thirty N
+TC 15 60/2 N
+
+
+                               Boundary Value Analysis
+Invalid min	valid	Invalid max
+min-1	min,min+1,max-1,max	max+1
+17	18,19,54,55	56
+TC1	TC2,TC3,TC4,TC5	TC6
+
+
+2. Equivalence class partitioning :
+
+In this type of testing we divide the inputs into different groups which are known as classes, on the basis of their behavior.
+
+AGE : 18(min)--55(max)
+
+Invalid (min)  --> age<18          17,16,--infinite
+
+valid   --> 17<age<56              18,19,--54,55
+
+Invalid(max) --> age>55            56,57,--infinite
+
+Example
+
+100 sweet boxes
+
+100
+99
+98
+.
+.
+.
+1
+
+Boundary :1,2 ---- 99,100 (Approved)
+ECP : group 1[1-30] Mon -->
+      group 2[31-60] Tue --> (Approved)
+      group 3[61-100] Wed -->
+
+### Domains
+
+1. banking domain
+(https://netbanking.hdfcbank.com/)
+
+2. E-commerce (Flipkart/Amazon)
+3. Dating (Tinder/match)
+4. real estate (Magicbricks /99acre.com)
+5. CMS (Wordpress) homework - content management system
+6. ERP - Enterprise resource planning
+7. CRM - Customer relationship management homework
+8. LMS - Learning management system  homework
+9. HRMS homework
+10. Social media homework
+11. Gaming homework
+
+
+Types of ecommerce (homework)
+
+B2B
+B2C
+C2C(OLX)
+
+ecommerce websites -> single seller
+https://www.mi.com/  , https://www.boat-lifestyle.com/
+
+Ecommerce Marketplace -> multiple seller
+Amazon/Flipkart
+
+Amazon --> Interface --> sellers (commission)
+
+Top 5 E-comm marketplace websites
+
+Open source E-comm Framework
+
+Shopify
+OpenCart
+Prestashop
+Wordpress (Woocommerce)
+Adobe commerce (magento)
+
+Dynamic Websites
+
+Frontend
+Backend
+
+Components of E-commerce Websites
+
+Header (Compare b/w amazon/flipkart/myntra)
+Footer (Compare b/w amazon/flipkart/myntra)
+Categories and subcategories(Compare b/w amazon/flipkart/myntra)
+Homepage(Compare b/w amazon/flipkart/myntra)
+Shopping cart page
+Mini cart page
+Wishlist
+Registration  page/create account/signup page
+Social signup page(Gmail/facebook/twitter)
+Login page
+profile
+Checkout page
+ 
+    * Shipping -> shipping address -> shipping methods
+         1. E-cart logistic
+         2. Blue Dart
+         3. Delhivery
+         4. Fedex
+         5. DTDC
+    * Payment -> Enter Billing address-> Payment Method
+         1. Offline payment method -> OCD/Cheque
+         2. Payments methods -> Paypal/Razorpay/Amazon pay/Mangopay/Stripe/Brainetree
+
+10. Payment method
+11. Shipping method
+
+
+Components of E-commerce Websites
+
+Homepage
+header
+Footer
+Categories and sub categories
+Cart
+Wishlist
+Compare page
+Registration page/Create Account page/Signup page
+Social signup
+Login page
+profile
+Category page
+Product page
+Checkout
+    1. Shipping  -> Enter shipping address -> select shipping method ->
+        ekart logistic
+        DTDC
+        Dehlivery
+        Fedex
+        Ups
+        USPS
+
+2. payment -> Billing Address -> payment
+       Gateway.
+       paypal
+       Amazon pay
+       Razorpay
+       Stripe
+       Braintree
+       MangoPay
+
+HOMEWORk - search
+
+ 10 Shipping methods
+ 10 payment methods
+
+Types of product
+
+Simple product - product which you can touch and feel (Weight!=0)
+Downloadable product(Weight=0)
+Configurable product - cloths shirt size, color
+Bundle of group
+Virtual product (Weight=0)
+Gift card(homework)
+
+### Bug Reporting in GIT/ Jira/Trello
+
+
+* GIT :
+
+open repo -> click on issues -> add title in precise way such that developer should understand easily -> add description.
+
+Example :
+
+ title :
+
+    Web | Customer | Registration | All fields should be marked with asterisk (*)
+
+ Description :
+
+  # Environment
+ 
+  - Build : -> in the repo click on 1 commit then copy the id and paste it here
+  - Php version : 7.1.14
+  - version : 2.4.0 (footer of the webpage)
+  - platform : iOS/Android/WEB
+  - Browser : Chrome/Safari/Firefox
+  - Chrome version : go to settings in chrome -> click on about Chrome -> look at version            like ex - Version 119.0.6045.105
+  - Server : Local/Dev/Stagging/pre-prod/production
+  - iOS version : 15
+  - Device used: I pad pro
+
+ # description
+
+  - All required fields should be marked with asterisk (*)
+  - if Asterisk is not marked then we can also mention that **All fields are mandatory**
+
+  # Steps to Reproduce
+
+  1. navigate to url https://www.drishtilearningapp.com/
+  2. Tap to login button in header.
+  3. Click on 'Register now'
+  4. Analyze the sign -up form
+
+  # Test data
+
+  - URL : https://www.drishtilearningapp.com/
+  
+  # Actual
+   
+   - All required fields are not marked with asterisk (*)
+  
+Attach a screenshot of that issue
+
+then assign that to the developer -> on your right hand side -> there is option called assignments -> click on that and select the user -> then apply labels select bug if it is a bug or many more depending on the issue 
+ 
+when clicked on labels -> give label name as iOS or depending on the issue faced on the device/operating systems -> create label
+
+also you can create label -> label name - High Priority -> choose color -> ex- red -> create label
+
+Report :
+
+To Lock :
+
+  * TC05 -
+
+GitHub repo -> issues -> new issue
+
+title : 
+       WEB | customer | registration | frontend error messages are not visible below name, mobile and password when user tries to register by only entering email.
+
+description : 
+ 
+  # Environment
+ 
+  - Build : -> in the repo click on 1 commit then copy the id and paste it here
+  - Php version : 7.1.14
+  - version : 2.4.0 (footer of the webpage)
+  - platform : iOS/Android/WEB
+  - Browser : Chrome/Safari/Firefox
+  - Chrome version : go to settings in chrome -> click on about Chrome -> look at version like ex - Version 119.0.6045.105
+  - Server : Local/Dev/Stagging/pre-prod/production
+  - iOS version : 15
+  - Device used: I pad pro
+
+ # description
+
+  - frontend error messages are not visible below name, mobile and password when user tries to register by only entering email.
+
+# test steps
+
+  1. Navigate to registration page
+  2. Enter valid email keep other fields as blank
+  3. Click on submit button 
+
+# Expected
+
+ - Frontend validation message that name, mobile and password are required fields below respective fields.
+
+# Actual 
+
+ - Validation message for mobile is coming below email field
+
+Attach screen shot -> assign issue to the developer -> label as bug -> submit issue
 
 
 
