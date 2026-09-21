@@ -281,7 +281,7 @@ Those defects which are invalid one such type of defects are marked as rejected.
 
 ### Testing Methodologies/Testing Techniques
 
-### Boundary Value Analysis :
+### Boundary Value Analysis 
 
 * In this type of testing technique we test the functionality at boundary values, We test at min, max, Inside and outside boundary values.
 
@@ -353,7 +353,7 @@ min-1	min,min+1,max-1,max	max+1
 TC1	TC2,TC3,TC4,TC5	TC6
 
 
-2. Equivalence class partitioning :
+### Equivalence class partitioning 
 
 In this type of testing we divide the inputs into different groups which are known as classes, on the basis of their behavior.
 
@@ -399,11 +399,11 @@ ECP : group 1[1-30] Mon -->
 11. Gaming homework
 
 
-Types of ecommerce (homework)
+### Types of ecommerce (homework)
 
-B2B
-B2C
-C2C(OLX)
+  1. B2B
+  2. B2C
+  3. C2C(OLX)
 
 ecommerce websites -> single seller
 https://www.mi.com/  , https://www.boat-lifestyle.com/
@@ -417,31 +417,31 @@ Top 5 E-comm marketplace websites
 
 Open source E-comm Framework
 
-Shopify
-OpenCart
-Prestashop
-Wordpress (Woocommerce)
-Adobe commerce (magento)
+ 1. Shopify
+ 2. OpenCart
+ 3. Prestashop
+ 4. Wordpress (Woocommerce)
+ 5. Adobe commerce (magento)
 
 Dynamic Websites
 
-Frontend
-Backend
+  1. Frontend
+  2. Backend
 
-Components of E-commerce Websites
+### Components of E-commerce Websites
 
-Header (Compare b/w amazon/flipkart/myntra)
-Footer (Compare b/w amazon/flipkart/myntra)
-Categories and subcategories(Compare b/w amazon/flipkart/myntra)
-Homepage(Compare b/w amazon/flipkart/myntra)
-Shopping cart page
-Mini cart page
-Wishlist
-Registration  page/create account/signup page
-Social signup page(Gmail/facebook/twitter)
-Login page
-profile
-Checkout page
+ 1. Header (Compare b/w amazon/flipkart/myntra)
+ 2. Footer (Compare b/w amazon/flipkart/myntra)
+ 3. Categories and subcategories(Compare b/w amazon/flipkart/myntra)
+ 4. Homepage(Compare b/w amazon/flipkart/myntra)
+ 5. Shopping cart page
+ 6. Mini cart page
+ 7. Wishlist
+ 8. Registration  page/create account/signup page
+ 9. Social signup page(Gmail/facebook/twitter)
+ 10. Login page
+ 11. profile
+ 12. Checkout page
  
     * Shipping -> shipping address -> shipping methods
          1. E-cart logistic
@@ -453,26 +453,26 @@ Checkout page
          1. Offline payment method -> OCD/Cheque
          2. Payments methods -> Paypal/Razorpay/Amazon pay/Mangopay/Stripe/Brainetree
 
-10. Payment method
-11. Shipping method
+11. Payment method
+12. Shipping method
 
 
-Components of E-commerce Websites
+### Components of E-commerce Websites
 
-Homepage
-header
-Footer
-Categories and sub categories
-Cart
-Wishlist
-Compare page
-Registration page/Create Account page/Signup page
-Social signup
-Login page
-profile
-Category page
-Product page
-Checkout
+1. Homepage
+2. header
+3. Footer
+4. Categories and sub categories
+5. Cart
+6. Wishlist
+7. Compare page
+8. Registration page/Create Account page/Signup page
+9. Social signup
+10. Login page
+11. profile
+12. Category page
+13. Product page
+14. Checkout
     1. Shipping  -> Enter shipping address -> select shipping method ->
         ekart logistic
         DTDC
@@ -481,7 +481,7 @@ Checkout
         Ups
         USPS
 
-2. payment -> Billing Address -> payment
+15. payment -> Billing Address -> payment
        Gateway.
        paypal
        Amazon pay
@@ -495,21 +495,21 @@ HOMEWORk - search
  10 Shipping methods
  10 payment methods
 
-Types of product
+### Types of product
 
-Simple product - product which you can touch and feel (Weight!=0)
-Downloadable product(Weight=0)
-Configurable product - cloths shirt size, color
-Bundle of group
-Virtual product (Weight=0)
+ 1. Simple product - product which you can touch and feel (Weight!=0)
+ 2. Downloadable product(Weight=0)
+ 3. Configurable product - cloths shirt size, color
+ 4. Bundle of group
+ 5. Virtual product (Weight=0)
+
 Gift card(homework)
 
 ### Bug Reporting in GIT/ Jira/Trello
 
-
 ###  GIT 
 
-open repo -> click on issues -> add title in precise way such that developer should understand easily -> add description.
+* *open repo -> click on issues -> add title in precise way such that developer should understand easily -> add description.*
 
 Example :
 
@@ -551,7 +551,7 @@ Example :
    
    - All required fields are not marked with asterisk (*)
   
-Attach a screenshot of that issue
+***Attach a screenshot of that issue***
 
 Then assign that to the developer -> on your right hand side -> there is option called assignments -> click on that and select the user -> then apply labels select bug if it is a bug or many more depending on the issue 
  
